@@ -1,8 +1,7 @@
 # STEP protocol for 30 kV Raith EBL using single-layer PMMA
 
-**Author:** Ediz Herkert (ORCID: https://orcid.org/0000-0003-3040-8077)\
+**Author:** Ediz Herkert ([ORCID](https://orcid.org/0000-0003-3040-8077))\
 **Date of creation:** 04-11-2025\
-**Date of last modification:** 06-11-2025
 
 ## Description
 
