@@ -12,53 +12,53 @@ the process can also be applied to fabricate etching masks.
 
 ## Structure
 
-**Materials and equipment (ME):**
+### Materials and equipment (ME)
 Specify all materials and equipment used, including alternatives if primary options are not available. Include details about manufacturers, models, and modifications. 
 
-**Parameters and ranges (PR):**
+### Parameters and ranges (PR)
 List and record all controlled and uncontrolled parameters. Provide a range of values tested for each critical parameter.
 
-**Issues, warnings, troubleshooting and difficulties (IWTD):**
+### Issues, warnings, troubleshooting and difficulties (IWTD)
 Identify potential safety hazards, operational issues, and provide troubleshooting tips. Point out if and how a step is difficult, and how the experimenter can 
 reduce the difficulty to increase the chance of success.
 
-**Validation and expected outcomes (VEO):**
+### Validation and expected outcomes (VEO)
 Describe the expected results or outputs clearly, including any specific observations or measurements that indicate that the process step was successful.
 
 ---
 
 # 1. Substrate cleaning
 
-**Materials and equipment (ME)**
+### Materials and equipment (ME)
 * Beakers with spout for acetone 
 * Crystalizing dishes with spout for isopropanol and distilled water
 
-**Parameters and ranges (PR)**
+### Parameters and ranges (PR)
 
-**Issues, warnings, troubleshooting and difficulties (IWTD)**
+### Issues, warnings, troubleshooting and difficulties (IWTD)
 * *WARNING*: Acetone is flammable and irritating. All following sub tasks *MUST* be carried out in a fume hood.
 
-**Validation and expected outcomes (VEO)**
+### Validation and expected outcomes (VEO)
 
 ## 1.1 Acetone immersion
 
 Immerse the substrate in an acetone beaker. Close the beaker with tin foild to avoid acetone evaporation.
 
-**Materials and equipment (ME)**
+### Materials and equipment (ME)
 * Acetone (Scharlab AC0311)
 * Tin foil
 * Beaker with spout
 * Sonicator (optional)
 
-**Parameters and ranges (PR)**
+### Parameters and ranges (PR)
 * **Temperature:** Room temperature (heating up acetone to 50ºC and longer sonication times have been tried without noticeable differences)
 * **Time:** 15 min
 
-**Issues, warnings, troubleshooting and difficulties (IWTD)**
+### Issues, warnings, troubleshooting and difficulties (IWTD)
 * Gentle sonication improves the cleaning if your sample can withstand it
 * The acetone beaker should be full enough to be stable in the sonication bath
 
-**Validation and expected outcomes (VEO)**
+### Validation and expected outcomes (VEO)
 
 ---
 
