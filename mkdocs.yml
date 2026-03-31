@@ -1,8 +1,11 @@
 site_name: STEP-FWD
 site_url: https://step-fwd.github.io/STEP-FWD/
-docs_dir: ../protocols
+docs_dir: protocols
+site_dir: site
 markdown_extensions:
 - tables
+extra_css:
+- stylesheets/extra.css
 theme:
   name: material
 nav:
