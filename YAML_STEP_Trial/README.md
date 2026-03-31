@@ -13,8 +13,8 @@
 - Step 4. Everytime you write a new protocol you have to:
     - Run the YAML converter (YAML_convert.py). You can run this directly in your preferred python interpreter (Spyder, Visual Studio Code) or in the terminal
     - Now this will create a protocol.md from your new protocol.
-    - In order for the database to see this new file, you have to modify the mkdocs.yml, to add the new protocol (*I will update this so that some point is automatic*)
-    - If you want to modify the home page to show these new protocol, you can modify index.md. (*Again at some point this can be made to be automatic when parsing the new yaml file*)
+    - The parser now directly modifies the mkdocs.yml and index.md to incorporate the new protocols.
+    - Also if you make a new category in the protocol, this will create a new folder. 
     - 
 ### Installation of packages. 
 You need to have in your computer python and MkDocs (https://www.mkdocs.org/)
@@ -37,7 +37,7 @@ The folder to run this should be in "pythonpath". For ease of use I put this fol
 
 ### Filling the yaml protocol 
 As we are using a parser to translate from YAML to MD, the protocol needs to be written in a very specific way. If this is not done properly, some information will be missing. 
-- First of all the folder structure right now has to be what is mentioned above. Importantly the begining of the parser has a folder variable, in which you should write the path to your "docs" folder, created above. Otherwise it will not see the files. *I am going to try to make it general so it works directly on whatever folder it is placed* 
+- First of all the folder structure right now has to be what is mentioned above. 
 - The steps of the protocol have to be written as in the protocol template. For example for writing the materials and methods you have to write "materials: Write your materials", you cannot write something different like "m&m", "mat", etc. It has to be "materials: whatever". The same applies to all the other variables. Following the template is essential to make the parser work.
 - The same goes for the for the inheriting. The cool thing here is you can write
     - inherits_from: template_1
