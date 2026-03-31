@@ -1,0 +1,65 @@
+# Template to fill in YAML files for STEP protocols. Please follow the structure and guidelines below when writing your protocol.
+# To write the protocol, fill in the fields below. You can use markdown formatting in the description and steps.
+# It is very important that you do not change the names of the fields, as they are used by the import script to generate the markdown files for the documentation.
+# If you think another category should be added, or if you have any suggestions to improve the template, please let me know: Jaime Díez Mérida (jaime.diez@icfo.net)
+
+protocol:
+  id: protocol_template_v1
+  title: Template for STEP protocols
+
+category: STEP_template
+
+metadata:
+  authors:
+    - Jaime Díez Mérida
+  created: 2026-01-27
+  last_modified: 2026-01-30
+
+description: |
+  This is the template for writing STEP protocols. 
+  Please follow the structure and guidelines to fill in the fields and write your protocol. 
+  You can use markdown formatting in the description and steps.
+
+# For the steps just keep copying this structure to make more and more steps. 
+# When you leave some fields empty, this will just be ignored in the final markdown file, so you can use this to your advantage if some steps do not have all the fields.
+sections:
+  - id: substrate_preparation
+    title: Substrate preparation
+
+    steps:
+      - id: 1.0
+        task: Write your first step here
+        subtask: if you dont write anything it will write None. If you want this empty do not write the step, like in step 1.1
+        materials: 
+          Write all your materials and methods. **This writes bold**, because it will understand once converted to markdown. 
+          *This is italic*
+          To write several lines just follow the indentation.
+        parameters: All the parameters used. You can use markdown formatting here as well, for example to write lists of parameters.
+        warnings: Dangerous parts of your process or what can go wrong if not done properly. 
+        verification: How do you verify that the step has been done correctly? This can be for example a measurement, or a visual inspection, etc.
+
+      - id: 1.1   # For example here we can ignore warnings and verification, and the parser will understand 
+        task: 
+        subtask: Now this is a subtask not a task
+        materials: Same as above
+        parameters: Same as above 
+      - id: 2.0
+        task: For step 2 you keep same indentation, just write 2 and taks instead of subtask. 
+        subtask: 
+        materials: 
+        parameters: 
+        warnings: 
+        verification: 
+
+
+references: |
+  Write all your references here. The | sign is to use many lines inf rom of a list, like used in the supplementary below. 
+  If instead of that you just use the indentation, like I am doing here, all the text will be in the same line in the final markdown file, so be careful with that.
+  
+supplementary: |
+  - Supplementary materials of your process. 
+  - To add pictures put images in the docs folder and link the path here: [Graphene exfolation picture](../docs/images/graphene_exfoliation.png)
+  - You can also add links to videos, or any other material that can be useful for the user to understand the process better.
+  
+
+

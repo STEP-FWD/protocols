@@ -1,0 +1,31 @@
+protocol:
+  id: inheriting_protocol_v1
+  title: Template to write protocols inheriting from other protocols
+category: STEP_template
+metadata:
+  authors:
+    - Jaime Díez Mérida
+  created: 2026-03-31
+  last_modified: 2026-03-31
+
+description: >
+  Template to be used to write protocols which are just modifications of a previous protocol (inheritance)
+  As in the template protocol, following the structure is very important, as the import script will understand the modifications and generate the markdown file accordingly.
+
+inherits_from: protocol_template_v1
+
+modifications:
+  - step_id: 1.0
+    task: modify the task of step 1.0
+    subtask: 
+    materials: 
+      We are modifying the materials of steps 1 of the original template protocol. All the rest remains the same 
+  - step_id: 2.0
+    parameters: 
+      We also modify jere the parameters of step 2. 
+  
+supplementary: | 
+  - If you want to make a new supplementary section, you can just add it here, and it will override the one in the original protocol. 
+  - If you want to have the same supplementary as the original protocol, just delete the supplementary section here, and it will keep the original one.
+  - Same applies to the references. For example here I comment it out so that we keep the original references, but if I want to modify the references I can just write them here and it will override the original ones.
+#references: 

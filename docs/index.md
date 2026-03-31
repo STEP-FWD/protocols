@@ -16,13 +16,8 @@ Protocols are version-controlled, modular, and inheritable.
 
 ### 🧪 2D Materials
 
-
-
-### 🧪 CleanRoom Recipes 
-
-- [EBL]
-
-### Techniques 
+#### Tempaltes 
+- [General template](templates/protocol_template_v1.md)
 ##### Exfoliation
 - [Graphene exfoliation](2d_materials/exfoliation_graphene_v1.md)
 - [hBN exfoliation](2d_materials/exfoliation_hbn_v1.md)

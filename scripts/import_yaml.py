@@ -38,6 +38,10 @@ def resolve_inheritance(protocols, proto):
                 for step in section["steps"]:
                     if step["id"] == step_id:
                         step.update(mod)
+    if supplementary := proto.get("supplementary"):
+        merged["supplementary"] = supplementary
+    if references := proto.get("references"):
+        merged["references"] = references        
 
     # Override metadata if present
     if "metadata" in proto:
@@ -77,6 +81,13 @@ def render(protocol):
             out.append(row)
 
         out.append("\n")
+
+    if "supplementary" in protocol:
+        out.append("## Supplementary Material\n")
+        out.append(protocol["supplementary"] + "\n")
+    if "references" in protocol:
+        out.append("## References\n")
+        out.append(protocol["references"] + "\n")
 
     return "\n".join(out)
 
