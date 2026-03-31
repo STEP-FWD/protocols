@@ -1,4 +1,5 @@
 site_name: STEP-FWD
+site_url: https://step-fwd.github.io/STEP-FWD/
 docs_dir: ../protocols
 markdown_extensions:
 - tables
