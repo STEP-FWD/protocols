@@ -1,6 +1,6 @@
 protocol:
   id: exfoliation_MoS2_v1
-  title: STEP protocol for exfoliating MoS2
+  title: MoS2 exfoliation protocol
 category: 2d_materials
 metadata:
   authors:

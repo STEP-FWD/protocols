@@ -1,6 +1,6 @@
 protocol:
   id: exfoliation_hbn_v1
-  title: STEP protocol for exfoliating hBN
+  title: hBN exfoliation protocol
 category: 2d_materials
 metadata:
   authors:

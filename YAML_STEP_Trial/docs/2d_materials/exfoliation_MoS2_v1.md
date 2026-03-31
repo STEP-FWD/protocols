@@ -1,4 +1,4 @@
-# STEP protocol for exfoliating MoS2
+# MoS2 exfoliation protocol
 
 **Authors:** Jaime Díez Mérida
 **Created:** 2026-01-27

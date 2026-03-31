@@ -1,6 +1,6 @@
 protocol:
   id: inheriting_protocol_v1
-  title: Template to write protocols inheriting from other protocols
+  title: Inheriting protocols template 
 category: STEP_template
 metadata:
   authors:

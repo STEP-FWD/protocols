@@ -1,4 +1,4 @@
-# Template to write protocols inheriting from other protocols
+# Inheriting protocols template
 
 **Authors:** Jaime Díez Mérida
 **Created:** 2026-03-31
@@ -11,7 +11,7 @@ Please follow the structure and guidelines to fill in the fields and write your 
 You can use markdown formatting in the description and steps.
 
 
-# Substrate preparation
+# Protocol Template
 
 | Step | Task | Subtask | Materials | Parameters | Warnings | Verification |
 |------|------|-------|------------|----------|--------------|---------|

@@ -4,31 +4,29 @@
 # If you think another category should be added, or if you have any suggestions to improve the template, please let me know: Jaime Díez Mérida (jaime.diez@icfo.net)
 
 protocol:
-  id: protocol_template_v1
-  title: Template for STEP protocols
+  id: CR_equipment_v1
+  title: Some equipment protocol
 
-category: STEP_template  # This is the section that appears on the database
+category: Cleanroom
 
 metadata:
   authors:
     - Jaime Díez Mérida
-  created: 2026-01-27
-  last_modified: 2026-01-30
+  created: 2026-03-31
+  last_modified: 2026-03-31
 
 description: |
-  This is the template for writing STEP protocols. 
-  Please follow the structure and guidelines to fill in the fields and write your protocol. 
-  You can use markdown formatting in the description and steps.
+  Trying to see if the mkdocs modification works properly. 
 
 # For the steps just keep copying this structure to make more and more steps. 
 # When you leave some fields empty, this will just be ignored in the final markdown file, so you can use this to your advantage if some steps do not have all the fields.
 sections:
-  - id: protocol_template
-    title: Protocol Template
+  - id: CR_equipment_v1
+    title: Some equipment protocol
 
     steps:
       - id: 1.0
-        task: Write your first step here
+        task: This is just the template 
         subtask: if you dont write anything it will write None. If you want this empty do not write the step, like in step 1.1
         materials: 
           Write all your materials and methods. **This writes bold**, because it will understand once converted to markdown. 

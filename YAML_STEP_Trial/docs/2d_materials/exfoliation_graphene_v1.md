@@ -1,4 +1,4 @@
-# STEP protocol for exfoliating graphene
+# Graphene exfoliation protocol
 
 **Authors:** Jaime Díez Mérida
 **Created:** 2026-01-27

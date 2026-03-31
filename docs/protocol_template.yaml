@@ -23,8 +23,8 @@ description: |
 # For the steps just keep copying this structure to make more and more steps. 
 # When you leave some fields empty, this will just be ignored in the final markdown file, so you can use this to your advantage if some steps do not have all the fields.
 sections:
-  - id: substrate_preparation
-    title: Substrate preparation
+  - id: protocol_template
+    title: Protocol Template
 
     steps:
       - id: 1.0

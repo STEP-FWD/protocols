@@ -1,4 +1,4 @@
-# STEP protocol for exfoliating hBN
+# hBN exfoliation protocol
 
 **Authors:** Jaime Díez Mérida
 **Created:** 2026-01-27
