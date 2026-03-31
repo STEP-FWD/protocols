@@ -6,7 +6,7 @@
 
 # Description
 
-This STEP protocol defines the process parameters for fabricating patterns up to 250 μm in size with a resolution of approximately 30 – 50 nm [A1]. It is based on a single-layer PMMA resist and carried out using a 30 kV Raith Elphy Plus electron-beam lithography system. Although primarily developed for lift-off applications, the process can also be applied to fabricate etching masks.
+This STEP protocol defines the process parameters for fabricating patterns up to 250 μm in size with a resolution of approximately 30 – 50 nm [[A1]](#a1-exemplary-structure). It is based on a single-layer PMMA resist and carried out using a 30 kV Raith Elphy Plus electron-beam lithography system. Although primarily developed for lift-off applications, the process can also be applied to fabricate etching masks.
 
 ---
 
@@ -151,9 +151,11 @@ Using a micropipette is not strictly necessary but reduces waste and improves pr
 
 ## A1: Exemplary structure
 20 nm gold dots with about 200 nm pitch achieved using a slightly modified version of the process described here (optimized dose and cold development).
+
 ![SEM: 20 nm gold dots, ~200 nm pitch](./attachments/attachment_1.jpg)
 
 ## A2: Underexposure
 The second pattern was exposed at a 50% higher dose than the first pattern. The first pattern is clearly underexposed as can be seen by badly defined edges and resist residues trapped below the deposited metal film.
+
 ![Underexposed pattern](./attachments/attachment_2a.tif)
 ![Correctly exposed pattern](./attachments/attachment_2b.tif)
