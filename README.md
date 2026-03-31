@@ -39,7 +39,7 @@ For example, for an electron-beam lithography protocol using the Raith Elphy Plu
 ebl-raith-elphy-plus-pmma
 ```
 
-## Option 1: With `git`
+## Option 1: Contributing with `git`
 1. Fork this repository and clone your fork.
 2. Create a new branch for your protocol.
 3. Create a new folder in either `protocols/techniques/` or `protocols/devices/`.
@@ -54,7 +54,7 @@ ebl-raith-elphy-plus-pmma
   * Whether it is a technique or device protocol
   * Any important notes for reviewers
 
-## Option 2: Without `git`
+## Option 2: Contributing without `git`
 1. Download `templates/protocol.md`.
 2. Complete the template following its structure.
 3. Review the protocol to ensure the content and formatting are correct.
