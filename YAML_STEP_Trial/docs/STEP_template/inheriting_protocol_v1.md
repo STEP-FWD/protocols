@@ -15,9 +15,9 @@ You can use markdown formatting in the description and steps.
 
 | Step | Task | Subtask | Materials | Parameters | Warnings | Verification |
 |------|------|-------|------------|----------|--------------|---------|
-| 1.0 | modify the task of step 1.0 | None | We are modifying the materials of steps 1 of the original template protocol. All the rest remains the same | All the parameters used. You can use markdown formatting here as well, for example to write lists of parameters. | Dangerous parts of your process or what can go wrong if not done properly. | How do you verify that the step has been done correctly? This can be for example a measurement, or a visual inspection, etc. |
-| 1.1 | None | Now this is a subtask not a task | Same as above | Same as above |  |  |
-| 2.0 | For step 2 you keep same indentation, just write 2 and taks instead of subtask. | None | None | We also modify jere the parameters of step 2. | None | None |
+| 1.0 | modify the task of step 1.0 |  | We are modifying the materials of steps 1 of the original template protocol. All the rest remains the same | All the parameters used. You can use markdown formatting here as well, for example to write lists of parameters. | Dangerous parts of your process or what can go wrong if not done properly. | How do you verify that the step has been done correctly? This can be for example a measurement, or a visual inspection, etc. |
+| 1.1 |  | Now this is a subtask not a task | Same as above | Same as above |  |  |
+| 2.0 | For step 2 you keep same indentation, just write 2 and taks instead of subtask. |  |  | We also modify jere the parameters of step 2. |  |  |
 
 
 ## Supplementary Material

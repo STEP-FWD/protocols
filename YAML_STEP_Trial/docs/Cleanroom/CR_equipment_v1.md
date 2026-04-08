@@ -14,8 +14,8 @@ Trying to see if the mkdocs modification works properly.
 | Step | Task | Subtask | Materials | Parameters | Warnings | Verification |
 |------|------|-------|------------|----------|--------------|---------|
 | 1.0 | This is just the template | if you dont write anything it will write None. If you want this empty do not write the step, like in step 1.1 | Write all your materials and methods. **This writes bold**, because it will understand once converted to markdown. *This is italic* To write several lines just follow the indentation. | All the parameters used. You can use markdown formatting here as well, for example to write lists of parameters. | Dangerous parts of your process or what can go wrong if not done properly. | How do you verify that the step has been done correctly? This can be for example a measurement, or a visual inspection, etc. |
-| 1.1 | None | Now this is a subtask not a task | Same as above | Same as above |  |  |
-| 2.0 | For step 2 you keep same indentation, just write 2 and taks instead of subtask. | None | None | None | None | None |
+| 1.1 |  | Now this is a subtask not a task | Same as above | Same as above |  |  |
+| 2.0 | For step 2 you keep same indentation, just write 2 and taks instead of subtask. |  |  |  |  |  |
 
 
 ## Supplementary Material
