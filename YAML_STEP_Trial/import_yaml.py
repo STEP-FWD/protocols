@@ -67,10 +67,20 @@ def resolve_inheritance(protocols, proto):
 # ------------------------
 
 def _table_cell(val):
-    """Single-line markdown table cell: YAML blocks often end with \\n which breaks pipe tables."""
+    """One markdown table cell: collapse whitespace/newlines; empty YAML stays empty in MD.
+
+    These all become an empty cell:
+      - key omitted, or YAML null / ~
+      - empty string
+    YAML is not Python: writing `materials: None` (unquoted) is stored as the *text* "None",
+    not as “empty”. We treat that text like empty so it matches what authors expect.
+    """
     if val is None:
         return ""
-    return " ".join(str(val).split())
+    s = " ".join(str(val).split()).strip()
+    if not s or s.lower() in ("none", "null", "~"):
+        return ""
+    return s
 
 
 def render(protocol):
