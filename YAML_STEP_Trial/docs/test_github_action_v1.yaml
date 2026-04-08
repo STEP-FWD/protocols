@@ -29,3 +29,10 @@ sections:
         parameters: workflow_dispatch or a push that changes *.yaml
         warnings: "If the job cannot push, check branch protection and contents write permission"
         verification: "test_ci/test_github_action_v1.md should appear or update in the repo"
+      - id: 2.0
+        task: Test if I can modify the file online and render it real-time
+        subtask: Check that I can modify from GitHub
+        materials: GitHub actions
+        parameters: workflow_dispatch or a push that changes *.yaml
+        warnings:  "How does it work?"
+        
