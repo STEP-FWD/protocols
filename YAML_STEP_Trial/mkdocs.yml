@@ -1,16 +1,18 @@
 site_name: STEP Protocols
 site_description: A collection of standardized protocols for scientific experiments.
 theme:
-  name: mkdocs
+  name: material
 
 nav:
   - Home: index.md
-  - Cleanroom:
-      - Some equipment protocol: Cleanroom/CR_equipment_v1.md
-  - 2D Materials:
-      - Graphene exfoliation protocol: 2d_materials/exfoliation_graphene_v1.md
-      - hBN exfoliation protocol: 2d_materials/exfoliation_hbn_v1.md
-      - MoS2 exfoliation protocol: 2d_materials/exfoliation_MoS2_v1.md
   - Step Template:
       - Inheriting protocols template: STEP_template/inheriting_protocol_v1.md
       - Template for STEP protocols: STEP_template/protocol_template_v1.md
+  - 2D Materials:
+      - MoS2 exfoliation protocol: 2d_materials/exfoliation_MoS2_v1.md
+      - hBN exfoliation protocol: 2d_materials/exfoliation_hbn_v1.md
+      - Graphene exfoliation protocol: 2d_materials/exfoliation_graphene_v1.md
+  - Rie:
+      - Dry etching of hBN / graphene heterostructures (Oxford RIE): RIE/rie_oxford_hbn_gr_v1.md
+  - Cleanroom:
+      - Some equipment protocol: Cleanroom/CR_equipment_v1.md
