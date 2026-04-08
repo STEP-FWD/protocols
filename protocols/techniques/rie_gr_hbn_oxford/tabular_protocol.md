@@ -1,6 +1,6 @@
 # RIE — Dry etching of hBN / Gr heterostructures (Oxford Plasmalab 100)
 
-**Authors:** Bianca Turini, Neha Bhatia
+**Authors:** [Bianca Turini](https://orcid.org/0000-0002-0188-6355), Neha Batia
 
 **Date of creation:** 2025-11-21 · **Date of last modification:** 2026-02-11
 
